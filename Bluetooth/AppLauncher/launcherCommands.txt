@@ -1,0 +1,5 @@
+GUI SPACE
+DELAY 500
+STRING visual studio code
+DELAY 500
+ENTER
