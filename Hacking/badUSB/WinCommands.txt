@@ -1,0 +1,32 @@
+OS WIN
+DELAY 100
+SWITCH_INPUT 1
+DELAY 200
+OPEN_TERMINAL
+DELAY 1000
+
+STRING cd %USERPROFILE%\Desktop
+ENTER
+DELAY 300
+STRING mkdir MyCoolFolder
+ENTER
+DELAY 300
+STRING cd MyCoolFolder
+ENTER
+DELAY 400
+
+STRING type NUL > hello.txt
+ENTER
+DELAY 200
+STRING echo Hello from BadUSB! >> hello.txt
+ENTER
+STRING echo This is a quick demo on Windows. >> hello.txt
+ENTER
+STRING echo Created by your Kode Dot device. >> hello.txt
+ENTER
+STRING echo Have a great day :) >> hello.txt
+ENTER
+
+DELAY 300
+STRING notepad hello.txt
+ENTER

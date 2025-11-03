@@ -1,0 +1,37 @@
+OS MAC
+DELAY 100
+SWITCH_INPUT 1
+DELAY 200
+OPEN_TERMINAL
+DELAY 1000
+
+STRING cd ~/Desktop
+ENTER
+DELAY 300
+STRING mkdir MyCoolFolder
+ENTER
+DELAY 300
+STRING cd MyCoolFolder
+ENTER
+DELAY 400
+
+STRING cat > hello.txt <<'EOF'
+ENTER
+DELAY 150
+STRING Hello from BadUSB!
+ENTER
+STRING This is a quick demo on macOS.
+ENTER
+STRING Created by your Kode Dot device.
+ENTER
+STRING Have a great day :)
+ENTER
+STRING EOF
+ENTER
+
+DELAY 400
+STRING date >> hello.txt
+ENTER
+DELAY 300
+STRING open -a TextEdit hello.txt
+ENTER
