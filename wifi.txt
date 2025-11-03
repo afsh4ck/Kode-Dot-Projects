@@ -1,0 +1,14 @@
+NAME=WiFi-home
+SSID=DIGIFIBRA-PLUS-Z5RR
+PASSWORD=yUFKN3yzTfyX
+END
+---
+
+NAME=Phone
+SSID=iPhone de Alex
+PASSWORD=alexfdz93
+---
+
+NAME=WiFi-2
+SSID=
+PASSWORD=
