@@ -1,5 +1,5 @@
-GUI SPACE
+GUI r
 DELAY 500
-STRING visual studio code
+STRING vmware
 DELAY 500
 ENTER
